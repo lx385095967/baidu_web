@@ -1,1 +1,13 @@
-/*这是CSS文件*/
+@charset "utf-8";
+/* CSS Document */
+/**{margin:0; padding:0;}*/
+
+/*这是两列自适应*/
+#main{ border:1px #000 solid; float:left; width:300px; background:#F00; height:500px; margin-left:200px;}
+#sidebar{border:1px #000 solid; width:200px; background:#09C; height:500px; margin-left:-100%;}
+
+
+/*这是三列自适应*/
+/*#left{ width:200px; height:100px; background:#00F; float:left;}
+#middle{ position:absolute;left:200px;width:500px; height:100px; background:#0F0; float:left;}
+#right{ width:200px; height:100px; background:#F00; position:absolute; right:0;}*/
